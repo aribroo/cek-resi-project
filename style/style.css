@@ -1,0 +1,72 @@
+:root {
+  --font-primary: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: rgb(225, 240, 235);
+  text-decoration: none;
+}
+
+.brand {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.brand h6 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #dee5ee;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+}
+
+.brand h6::before {
+  content: 'C';
+  position: absolute;
+  top: 0;
+  left: -10px;
+  font-size: 20px;
+  color: #ff5722;
+  transform: rotate(10deg);
+}
+
+.brand h6::after {
+  content: 'm';
+  position: absolute;
+  top: 8px;
+  right: -10px;
+  font-size: 20px;
+  color: #ff5722;
+  transform: rotate(-10deg);
+}
+
+.brand:hover h6 {
+  color: #ff5722;
+  transition: color 0.3s ease-in-out;
+}
+
+.brand:hover h6::before,
+.brand:hover h6::after {
+  color: #dee5ee;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link {
+  color: rgb(62, 66, 61);
+}
+
+.dropdown-toggle {
+  text-decoration: none;
+  color: rgb(62, 66, 61);
+}
+
+.dropdown-toggle {
+  color: #dbe0db;
+}
+
+.navbar-nav .nav-link {
+  color: #dbe0db;
+}
