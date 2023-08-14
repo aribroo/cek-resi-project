@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CekResi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital,wght@0,200;0,500;0,700;1,200&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-success">
+      <div class="container-fluid ms-5">
+        <a class="brand fw-medium" href="/"><h6>CekResi.com</h6></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <div class="dropdown mt-2">
+              <a class="dropdown-toggle px-4 fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cek resi</a>
+
+              <ul class="dropdown-menu mt-2">
+                <li><a class="dropdown-item" href="#">J&T Express</a></li>
+                <li><a class="dropdown-item" href="#">JNE Express</a></li>
+                <li><a class="dropdown-item" href="#">Ninja Express</a></li>
+                <li><a class="dropdown-item" href="#">ID Express</a></li>
+                <li><a class="dropdown-item" href="#">SiCepat</a></li>
+                <li><a class="dropdown-item" href="#">Pos Indonesia</a></li>
+                <li><a class="dropdown-item" href="#">SiCepat</a></li>
+                <li><a class="dropdown-item text-primary mt-3" href="#">Lihat selengkapnya&raquo;</a></li>
+              </ul>
+            </div>
+            <li class="nav-item me-5">
+              <a class="nav-link fw-medium" href="/cekongkir">Cek Ongkir</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="content-container" class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-8 mt-5">
+          <h2 class="fw-bold">Cek resi anda di sini</h2>
+          <h5>Lacak paket anda dengan mudah, cepat dan akurat</h5>
+          <h6>Lintasi Pengiriman dengan Mudah: <span class="fw-bold text-danger fs-italic">Lacak Resi dengan Sekali Klik!</span></h6>
+          <form>
+            <div id="courier" class="btn-group mt-4" role="group" aria-label="Basic radio toggle button group">
+              <div class="col-md-12">
+                <input type="radio" class="btn-check" name="courier" id="btnradio1" autocomplete="off" value="jnt" checked />
+                <label class="btn btn-outline-primary mx-1 my-1" for="btnradio1">J&T Express</label>
+
+                <input type="radio" class="btn-check" name="courier" id="btnradio2" autocomplete="off" value="jne" />
+                <label class="btn btn-outline-primary mx-1 my-1" for="btnradio2">JNE Express</label>
+
+                <input type="radio" class="btn-check" name="courier" id="btnradio3" autocomplete="off" value="sicepat" />
+                <label class="btn btn-outline-primary mx-1 my-1" for="btnradio3">SiCepat</label>
+
+                <input type="radio" class="btn-check" name="courier" id="btnradio4" autocomplete="off" value="pos" />
+                <label class="btn btn-outline-primary mx-1 my-1" for="btnradio4">Pos Indonesia</label>
+
+                <input type="radio" class="btn-check" name="courier" id="btnradio5" autocomplete="off" value="anteraja" />
+                <label class="btn btn-outline-primary mx-1 my-1" for="btnradio5">AnterAja</label>
+
+                <input type="radio" class="btn-check" name="courier" id="btnradio6" autocomplete="off" value="tiki" />
+                <label class="btn btn-outline-primary mx-1 my-1" for="btnradio6">Tiki</label>
+
+                <input type="radio" class="btn-check" name="courier" id="btnradio7" autocomplete="off" value="wahana" />
+                <label class="btn btn-outline-primary mx-1 my-1" for="btnradio7">Wahana</label>
+
+                <input type="radio" class="btn-check" name="courier" id="btnradio8" autocomplete="off" value="spx" />
+                <label class="btn btn-outline-primary mx-1 my-1" for="btnradio8">Shopee Express</label>
+
+                <input type="radio" class="btn-check" name="courier" id="btnradio9" autocomplete="off" value="lion" />
+                <label class="btn btn-outline-primary mx-1 my-1" for="btnradio9">Lion</label>
+
+                <input type="radio" class="btn-check" name="courier" id="btnradio10" autocomplete="off" value="ninja" />
+                <label class="btn btn-outline-primary mx-1 my-1" for="btnradio10">Ninja</label>
+
+                <input type="radio" class="btn-check" name="courier" id="btnradio11" autocomplete="off" value="jet" />
+                <label class="btn btn-outline-primary mx-1 my-1" for="btnradio11">JET Express</label>
+
+                <input type="radio" class="btn-check" name="courier" id="btnradio12" autocomplete="off" value="pcp" />
+                <label class="btn btn-outline-primary mx-1 my-1" for="btnradio12">PCP Express</label>
+
+                <input type="radio" class="btn-check" name="courier" id="btnradio13" autocomplete="off" value="rex" />
+                <label class="btn btn-outline-primary mx-1 my-1" for="btnradio13">REX Express</label>
+
+                <input type="radio" class="btn-check" name="courier" id="btnradio14" autocomplete="off" value="rpx" />
+                <label class="btn btn-outline-primary mx-1 my-1" for="btnradio14">RPX</label>
+
+                <input type="radio" class="btn-check" name="courier" id="btnradio15" autocomplete="off" value="ide" />
+                <label class="btn btn-outline-primary mx-1 my-1" for="btnradio15">ID Express</label>
+
+                <input type="radio" class="btn-check" name="courier" id="btnradio16" autocomplete="off" value="kgx" />
+                <label class="btn btn-outline-primary mx-1 my-1" for="btnradio16">KGXpress</label>
+
+                <input type="radio" class="btn-check" name="courier" id="btnradio17" autocomplete="off" value="sap" />
+                <label class="btn btn-outline-primary mx-1 my-1" for="btnradio17">SAP Express</label>
+              </div>
+            </div>
+
+            <div class="input-group mb-3 mt-2">
+              <input type="text" id="tracking-number" class="form-control" placeholder="Masukan nomor resi" aria-describedby="button-addon2" name="resi" required />
+              <button class="btn btn-success px-4 text-light" type="button" id="search-button">Cari</button>
+            </div>
+          </form>
+          <div class="error-alert"></div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./src/script.js"></script>
+  </body>
+</html>
