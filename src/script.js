@@ -14,7 +14,7 @@ searchButton.addEventListener('click', async function () {
 
   console.log(courier);
   try {
-    const apiKey = 'INPUT YOUR API KEY HERE'; // ubah dengan apikey milik anda
+    const apiKey = ''; // ubah dengan apikey milik anda
     const apiUrl = `https://api.binderbyte.com/v1/track?api_key=${apiKey}&courier=${courier}&awb=${noResi}`;
     const response = await fetch(apiUrl);
 
